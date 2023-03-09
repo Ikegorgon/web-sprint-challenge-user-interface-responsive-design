@@ -39,7 +39,7 @@ describe('index.html', () => {
     });
 
     it('renders the correct four links in header nav links div, Review how to create anchor tags', () => {
-        const headerNavLinks = container.querySelector('header nav div');
+        const headerNavLinks = container.querySelector('header nav');
         let headerNavLinkTextArr = headerNavLinks.innerHTML.split(/<a /i);
         // shift is to get rid of initial index that splits before the a tag
         headerNavLinkTextArr.shift();

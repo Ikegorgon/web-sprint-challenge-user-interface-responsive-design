@@ -61,6 +61,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    color: #E1EFE6;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -69,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    text-align: center;
 }
 
 h2 {
@@ -92,7 +94,38 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.opaque {
+    background-color: rgb(0, 4, 17, .8);
+}
+h1 a {
+    color: #E1EFE6;
+    text-decoration: none;
+    font-size: 6rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #E1EFE6;
+    margin: 2rem;
+    padding: 2rem;
+}
+nav div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav div span {
+    width: 35%;
+}
+.fa {
+    color: #E1EFE6;
+    margin: 2%;
+    font-size: 3rem;
+}
 /* spacers */
 .spacer {
     width: 100%;
@@ -108,22 +141,34 @@ header {
 /* gallery section */
 .gallery {
     width: 100%;
-    height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
 }
-
+.gallery h2 {
+    font-size: 5rem;
+    padding-top: 4%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.gallery-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+.gallery-inner img {
+    margin: 2%;
+    width: 29%;
+}
 /* about us section */
 .about {
     width: 100%;
-    height: 75vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
-
 .about-container {
     height: 100%;
     display: flex;
@@ -132,15 +177,22 @@ header {
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
 }
-
 .about h2 {
     width: 100%;
+    font-size: 5rem;
+    margin: 3% 0 7% 0;
 }
-
+.about h3 {
+    width: 100%;
+    font-size: 4rem;
+}
 .about-container .text {
     width: 50%;
+    margin-bottom: 4%;
 }
-
+.about-container .text p {
+    font-size: 2.5rem;
+}
 /* contact us section */
 .contact {
     text-align: center;
@@ -150,50 +202,82 @@ header {
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
 }
-
 .contact-container {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 4, 17, .8);
 }
-
 .contact h2 {
     padding-top: 5vh;
+    font-size: 5rem;
 }
-
 .contact h3 {
     padding-top: 2.5vh;
+    font-size: 4rem;
 }
-
 .contact p {
     padding: .5vh 0;
+    font-size: 2.5rem;
 }
-
 .info {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 .address {
     width: 25%;
 }
-
 .hours {
     width: 25%;
     padding-bottom: 2.5vh;
 }
-
 .contacts {
     width: 25%;
 }
-
+.contacts a {
+    text-decoration: none;
+    color: #E1EFE6;
+    font-size: 2.5rem;
+}
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
-    padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    display: flex;
+    flex-wrap: wrap;
+}
+.email-signup {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.email-signup p {
+    font-size: 3.5rem;
+    text-align: center;
+}
+.email-signup div{
+    margin-bottom: 2%;
+    width: 90%;
+}
+.email-signup div input {
+    font-size: 2rem;
+    width: 72%;
+    height: 5vh;
+}
+.email-signup div button {
+    font-size: 2rem;
+    width: 25%;
+    height: 5vh;
+}
+.footer-nav {
+    width: 65%;
+}
+.footer-nav p {
+    font-size: 1.5rem;
+    margin: 5% 4% 0% 50%;
 }
 
 /* mobile media query */
