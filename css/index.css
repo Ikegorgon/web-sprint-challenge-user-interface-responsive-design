@@ -46,45 +46,37 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* CSS */
 * {
     box-sizing: border-box;
 }
-
 html {
     max-width: 1920px;
     min-width: 428px;
     width: 100%;
     font-size: 62.5%;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     color: #E1EFE6;
 }
-
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
 }
-
 h1 {
     font-size: 7.5rem;
     text-align: center;
 }
-
 h2 {
     font-size: 6rem;
 }
-
 h3 {
     font-size: 5rem;
 }
-
 p, a {
     font-size: 3rem;
 }
-
 /* header section */
 header {
     width: 100%;
@@ -137,7 +129,6 @@ nav div span {
     height: 10vh;
     background-color: rgb(0, 4, 17);
 }
-
 /* gallery section */
 .gallery {
     width: 100%;
