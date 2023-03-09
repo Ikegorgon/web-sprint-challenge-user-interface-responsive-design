@@ -1,135 +1,94 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-
-    <title>Sprint Challenge - Menu</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <div>
-        <!-- header -->
-        <header>
-            BLOOMTECH BAR AND GRILL
-
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </header>
-
-        <!-- spacer -->
-        <div class="spacer"></div>
-
-        <!-- menu -->
-        <article class="menu">
-            Food & Drink
-
-                Drinks
-                    Soda
-                    $2
-                    Coke products
-
-                    Coffee
-                    $2
-                    Cream and sugar available upon request
-
-                    Beer
-                    $5
-                    Delicious and refreshing
-
-                    Wine
-                    $5
-                    Light and fruity
-
-                    Cocktail
-                    $10
-                    Ask about our specials
-
-                Appetizers
-                    Fried Pickles
-                    $6
-                    Golden and crispy with tang!
-                    (V)
-                    
-                    Buffalo Wings
-                    $10
-                    5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks
-                    (GF)
-
-                    Poutine
-                    $5
-                    Homemade fries topped with everything but the kitchen sink
-
-                Soup and Salad
-                    House Salad
-                    $8
-                    Spinach and arugala with all the good veggies; add chicken for $6
-                    (GF, V)
-                    
-                    French Onion Soup
-                    $4
-                    Served with a thick topping of cheese and delicious bread
-                    
-                    Cheddar Broccoli Soup
-                    $5
-                    Creamy and filling
-                    (GF)
-                    
-                Entrees
-                    Ribeye Steak
-                    $32
-                    Served with mashed potatoes and roasted asparagus
-
-                    Big Boy Burger
-                    $14
-                    Beef or black bean burger on homemade bun served with fries
-                    Black Bean Burger: (V)
-                    
-                    Pork Shortrib
-                    $18
-                    Melt off the bone finger food
-                    (GF)
-                    
-                Desserts
-                    Flourless Chocolate Cake
-                    $7
-                    Gooey and chocolatey heaven
-                    (GF)
-                    
-                    Cookies and Ice Cream
-                    $6
-                    Choose 2 cookies and 1 scoop of ice cream from an assortment
-                    
-                    Creme Brulee
-                    $8
-                    Crispy scorched top containing a perfect, smooth custard
-                    (GF)
-        </article>
-
-        <!-- spacer -->
-        <div class="spacer-sm"></div>
-
-        <!-- footer -->
-        <footer>
-            <!-- email signup -->
-            Join our mailing list!
-            Sign Up
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-            <!-- copyright -->
-            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-        </footer>
-    </div>
-</body>
-
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>BloomTech Bar & Grill - Reservations</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+		<link href="css/reservations.css" rel="stylesheet" type="text/css">
+		<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<div class="opaque">
+				<h1><a href="index.html" class="active">BLOOMTECH BAR AND GRILL</a></h1>
+				<!-- nav -->
+				<nav>
+					<ul>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="reservations.html">Reservations</a></li>
+						<li><a href="specialoffers.html">Special Offers</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<div>
+						<span></span>
+						<i href="facebook.com" class="fa fa-facebook"></i>
+						<i href="twitter.com" class="fa fa-twitter"></i>
+						<i href="instagram.com" class="fa fa-instagram"></i>
+						<span></span>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- spacer -->
+		<div class="spacer-sm"></div>
+		<!-- contact section -->
+		<section class="contact">
+			<div class="contact-container">
+				<h2>CONTACT US</h2>
+				<div class="info">
+					<div class="address">
+						<h3>Address</h3>
+						<address>
+							<p>100 Main St</p>
+							<p>San Francisco, CA</p>
+						</address>
+					</div>
+					<div class="hours">
+						<h3>Hours</h3>
+						<div>
+							<p>Sunday to Thursday:</p>
+							<p>12:00p - 12:00a</p>
+							<p>Friday and Saturday:</p>
+							<p>12:00p - 4:00a</p>
+						</div>
+					</div>
+					<div class="contacts">
+						<h3>Contacts</h3>
+						<div>
+							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
+							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- spacer -->
+		<div class="spacer-sm"></div>
+		<!-- footer -->
+		<footer>
+			<!-- email signup -->
+			<div class="email-signup">
+				<p>Join our mailing list!</p>
+				<div>
+					<input type="email" id="email" placeholder="Email Address">
+					<button type="button" class="">Sign Up</button>
+				</div>
+			</div>
+			<div class="footer-nav">
+				<!-- nav -->
+				<nav>
+					<ul>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="reservations.html">Reservations</a></li>
+						<li><a href="specialoffers.html">Special Offers</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- copyright -->
+				<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</div>
+		</footer>
+	</body>
 </html>
