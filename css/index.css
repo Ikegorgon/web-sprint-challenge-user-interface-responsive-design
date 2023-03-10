@@ -214,16 +214,17 @@ nav div span {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .address {
-    width: 25%;
+    width: 30%;
 }
 .hours {
-    width: 25%;
+    width: 30%;
     padding-bottom: 2.5vh;
 }
 .contacts {
-    width: 25%;
+    width: 30%;
 }
 .contacts a {
     text-decoration: none;
@@ -304,9 +305,6 @@ footer {
     /* contact us section */
     .contact h3 {
         padding-top: 2.5vh;
-    }
-    .info {
-        flex-wrap: wrap;
     }
     .address {
         width: 100%;
